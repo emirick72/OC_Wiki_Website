@@ -5,9 +5,9 @@ function Navbar() {
     return(
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Characters</li>
-                <li>Stories</li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/characters">Characters</Link></li>
+                <li><Link to="/stories">Stories</Link></li>
             </ul>
         </nav>
     );

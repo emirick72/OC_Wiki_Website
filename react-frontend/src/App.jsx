@@ -1,4 +1,3 @@
-import {BrowserRouter} from 'react-router-dom';
 
 import Header from "./Components/Header"
 import Navbar from "./Components/Navbar";
@@ -6,11 +5,22 @@ import Navbar from "./Components/Navbar";
 function App() {
 
   return(
-    <BrowserRouter>
+    <>
       <Header/>
       <Navbar/>
-      {/**Navbar links here */}
-    </BrowserRouter>
+
+      {/**BODY OF HOME PAGE HERE */}
+      <div>
+        {/**Left side (pics)*/}
+        <div>
+          <h2>(Images of OCs here)</h2>
+        </div>
+
+        {/**Right side (text)*/}
+
+        {/**Buttons */}
+      </div>
+    </>
   );
 }
 
